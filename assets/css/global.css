@@ -1,0 +1,31 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(135deg, #ffcb05, #e64e43, #3e7fcf, #8bc84b);
+  transition: background 1s ease; /* Aumentando a duração da transição */
+}
+
+body:hover {
+  background: linear-gradient(135deg, #8bc84b, #3e7fcf, #e64e43, #ffcb05);
+
+}
+
+.content {
+  width: 100vw;
+  height: 100vh;
+  padding: 1rem;
+  background-color: #fff;
+}
+
+
+@media screen and (min-width: 992px) {
+  .content{
+    max-width: 992px;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 1rem;
+  }
+}
